@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B862CD8B1913457400067D06"
-               BuildableName = "HJBSafeCategory.app"
-               BlueprintName = "HJBSafeCategory"
+               BlueprintIdentifier = "B862CDE719134BBD00067D06"
+               BuildableName = "HJBSafeCategory-Runtime-Failure.app"
+               BlueprintName = "HJBSafeCategory-Runtime-Failure"
                ReferencedContainer = "container:HJBSafeCategory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B862CDA61913457400067D06"
-               BuildableName = "HJBSafeCategoryTests.xctest"
-               BlueprintName = "HJBSafeCategoryTests"
-               ReferencedContainer = "container:HJBSafeCategory.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B862CD8B1913457400067D06"
-            BuildableName = "HJBSafeCategory.app"
-            BlueprintName = "HJBSafeCategory"
+            BlueprintIdentifier = "B862CDE719134BBD00067D06"
+            BuildableName = "HJBSafeCategory-Runtime-Failure.app"
+            BlueprintName = "HJBSafeCategory-Runtime-Failure"
             ReferencedContainer = "container:HJBSafeCategory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B862CD8B1913457400067D06"
-            BuildableName = "HJBSafeCategory.app"
-            BlueprintName = "HJBSafeCategory"
+            BlueprintIdentifier = "B862CDE719134BBD00067D06"
+            BuildableName = "HJBSafeCategory-Runtime-Failure.app"
+            BlueprintName = "HJBSafeCategory-Runtime-Failure"
             ReferencedContainer = "container:HJBSafeCategory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B862CD8B1913457400067D06"
-            BuildableName = "HJBSafeCategory.app"
-            BlueprintName = "HJBSafeCategory"
+            BlueprintIdentifier = "B862CDE719134BBD00067D06"
+            BuildableName = "HJBSafeCategory-Runtime-Failure.app"
+            BlueprintName = "HJBSafeCategory-Runtime-Failure"
             ReferencedContainer = "container:HJBSafeCategory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

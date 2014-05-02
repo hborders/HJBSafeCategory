@@ -14,22 +14,31 @@
 		B862CD9C1913457400067D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9B1913457400067D06 /* main.m */; };
 		B862CDA01913457400067D06 /* HJBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9F1913457400067D06 /* HJBAppDelegate.m */; };
 		B862CDA21913457400067D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862CDA11913457400067D06 /* Images.xcassets */; };
-		B862CDA91913457400067D06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CDA81913457400067D06 /* XCTest.framework */; };
-		B862CDAA1913457400067D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD8F1913457400067D06 /* Foundation.framework */; };
-		B862CDAB1913457400067D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD931913457400067D06 /* UIKit.framework */; };
-		B862CDB31913457400067D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B862CDB11913457400067D06 /* InfoPlist.strings */; };
-		B862CDB51913457400067D06 /* HJBSafeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDB41913457400067D06 /* HJBSafeCategoryTests.m */; };
+		B862CDCE1913470E00067D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9B1913457400067D06 /* main.m */; };
+		B862CDCF1913470E00067D06 /* HJBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9F1913457400067D06 /* HJBAppDelegate.m */; };
+		B862CDD11913470E00067D06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD911913457400067D06 /* CoreGraphics.framework */; };
+		B862CDD21913470E00067D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD931913457400067D06 /* UIKit.framework */; };
+		B862CDD31913470E00067D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD8F1913457400067D06 /* Foundation.framework */; };
+		B862CDD51913470E00067D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B862CD981913457400067D06 /* InfoPlist.strings */; };
+		B862CDD61913470E00067D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862CDA11913457400067D06 /* Images.xcassets */; };
+		B862CDDE191347B200067D06 /* NSObject+HJBMyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDDD191347B200067D06 /* NSObject+HJBMyCategory.m */; };
+		B862CDE11913491800067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE01913491800067D06 /* HJBMyClassThatUsesMyCategory.m */; };
+		B862CDE21913491C00067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE01913491800067D06 /* HJBMyClassThatUsesMyCategory.m */; };
+		B862CDE5191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE4191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m */; };
+		B862CDE619134B1900067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE4191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m */; };
+		B862CDE919134BBD00067D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9B1913457400067D06 /* main.m */; };
+		B862CDEA19134BBD00067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE01913491800067D06 /* HJBMyClassThatUsesMyCategory.m */; };
+		B862CDEB19134BBD00067D06 /* HJBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CD9F1913457400067D06 /* HJBAppDelegate.m */; };
+		B862CDEC19134BBD00067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDE4191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m */; };
+		B862CDEE19134BBD00067D06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD911913457400067D06 /* CoreGraphics.framework */; };
+		B862CDEF19134BBD00067D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD931913457400067D06 /* UIKit.framework */; };
+		B862CDF019134BBD00067D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862CD8F1913457400067D06 /* Foundation.framework */; };
+		B862CDF219134BBD00067D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B862CD981913457400067D06 /* InfoPlist.strings */; };
+		B862CDF319134BBD00067D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862CDA11913457400067D06 /* Images.xcassets */; };
+		B862CDFA19134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDF919134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m */; };
+		B862CDFE1913557000067D06 /* NSObject+HJBMyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDDD191347B200067D06 /* NSObject+HJBMyCategory.m */; };
+		B862CDFF191355C700067D06 /* NSObject+HJBMySometimesUnsafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B862CDF919134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B862CDAC1913457400067D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B862CD841913457400067D06 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B862CD8B1913457400067D06;
-			remoteInfo = HJBSafeCategory;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B862CD8C1913457400067D06 /* HJBSafeCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJBSafeCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +52,18 @@
 		B862CD9E1913457400067D06 /* HJBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBAppDelegate.h; sourceTree = "<group>"; };
 		B862CD9F1913457400067D06 /* HJBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBAppDelegate.m; sourceTree = "<group>"; };
 		B862CDA11913457400067D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B862CDA71913457400067D06 /* HJBSafeCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJBSafeCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B862CDA81913457400067D06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B862CDB01913457400067D06 /* HJBSafeCategoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HJBSafeCategoryTests-Info.plist"; sourceTree = "<group>"; };
-		B862CDB21913457400067D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B862CDB41913457400067D06 /* HJBSafeCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBSafeCategoryTests.m; sourceTree = "<group>"; };
+		B862CDCB191345D500067D06 /* HJBSafeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBSafeCategory.h; sourceTree = "<group>"; };
+		B862CDDA1913470E00067D06 /* HJBSafeCategory-Linker-Failure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HJBSafeCategory-Linker-Failure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B862CDDC191347B200067D06 /* NSObject+HJBMyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HJBMyCategory.h"; sourceTree = "<group>"; };
+		B862CDDD191347B200067D06 /* NSObject+HJBMyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HJBMyCategory.m"; sourceTree = "<group>"; };
+		B862CDDF1913491800067D06 /* HJBMyClassThatUsesMyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBMyClassThatUsesMyCategory.h; sourceTree = "<group>"; };
+		B862CDE01913491800067D06 /* HJBMyClassThatUsesMyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBMyClassThatUsesMyCategory.m; sourceTree = "<group>"; };
+		B862CDE3191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBMyClassThatIncludeMyCategoryInItsInterface.h; sourceTree = "<group>"; };
+		B862CDE4191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBMyClassThatIncludeMyCategoryInItsInterface.m; sourceTree = "<group>"; };
+		B862CDF719134BBD00067D06 /* HJBSafeCategory-Runtime-Failure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HJBSafeCategory-Runtime-Failure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B862CDF819134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HJBMySometimesUnsafeCategory.h"; sourceTree = "<group>"; };
+		B862CDF919134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HJBMySometimesUnsafeCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +77,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B862CDA41913457400067D06 /* Frameworks */ = {
+		B862CDD01913470E00067D06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B862CDA91913457400067D06 /* XCTest.framework in Frameworks */,
-				B862CDAB1913457400067D06 /* UIKit.framework in Frameworks */,
-				B862CDAA1913457400067D06 /* Foundation.framework in Frameworks */,
+				B862CDD11913470E00067D06 /* CoreGraphics.framework in Frameworks */,
+				B862CDD21913470E00067D06 /* UIKit.framework in Frameworks */,
+				B862CDD31913470E00067D06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862CDED19134BBD00067D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862CDEE19134BBD00067D06 /* CoreGraphics.framework in Frameworks */,
+				B862CDEF19134BBD00067D06 /* UIKit.framework in Frameworks */,
+				B862CDF019134BBD00067D06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				B862CD951913457400067D06 /* HJBSafeCategory */,
-				B862CDAE1913457400067D06 /* HJBSafeCategoryTests */,
 				B862CD8E1913457400067D06 /* Frameworks */,
 				B862CD8D1913457400067D06 /* Products */,
 			);
@@ -88,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				B862CD8C1913457400067D06 /* HJBSafeCategory.app */,
-				B862CDA71913457400067D06 /* HJBSafeCategoryTests.xctest */,
+				B862CDDA1913470E00067D06 /* HJBSafeCategory-Linker-Failure.app */,
+				B862CDF719134BBD00067D06 /* HJBSafeCategory-Runtime-Failure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +137,15 @@
 				B862CD9F1913457400067D06 /* HJBAppDelegate.m */,
 				B862CDA11913457400067D06 /* Images.xcassets */,
 				B862CD961913457400067D06 /* Supporting Files */,
+				B862CDCB191345D500067D06 /* HJBSafeCategory.h */,
+				B862CDDC191347B200067D06 /* NSObject+HJBMyCategory.h */,
+				B862CDDD191347B200067D06 /* NSObject+HJBMyCategory.m */,
+				B862CDDF1913491800067D06 /* HJBMyClassThatUsesMyCategory.h */,
+				B862CDE01913491800067D06 /* HJBMyClassThatUsesMyCategory.m */,
+				B862CDE3191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.h */,
+				B862CDE4191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m */,
+				B862CDF819134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.h */,
+				B862CDF919134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m */,
 			);
 			path = HJBSafeCategory;
 			sourceTree = "<group>";
@@ -122,24 +157,6 @@
 				B862CD981913457400067D06 /* InfoPlist.strings */,
 				B862CD9B1913457400067D06 /* main.m */,
 				B862CD9D1913457400067D06 /* HJBSafeCategory-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B862CDAE1913457400067D06 /* HJBSafeCategoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				B862CDB41913457400067D06 /* HJBSafeCategoryTests.m */,
-				B862CDAF1913457400067D06 /* Supporting Files */,
-			);
-			path = HJBSafeCategoryTests;
-			sourceTree = "<group>";
-		};
-		B862CDAF1913457400067D06 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B862CDB01913457400067D06 /* HJBSafeCategoryTests-Info.plist */,
-				B862CDB11913457400067D06 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,23 +181,39 @@
 			productReference = B862CD8C1913457400067D06 /* HJBSafeCategory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B862CDA61913457400067D06 /* HJBSafeCategoryTests */ = {
+		B862CDCC1913470E00067D06 /* HJBSafeCategory-Linker-Failure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B862CDBB1913457400067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategoryTests" */;
+			buildConfigurationList = B862CDD71913470E00067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategory-Linker-Failure" */;
 			buildPhases = (
-				B862CDA31913457400067D06 /* Sources */,
-				B862CDA41913457400067D06 /* Frameworks */,
-				B862CDA51913457400067D06 /* Resources */,
+				B862CDCD1913470E00067D06 /* Sources */,
+				B862CDD01913470E00067D06 /* Frameworks */,
+				B862CDD41913470E00067D06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B862CDAD1913457400067D06 /* PBXTargetDependency */,
 			);
-			name = HJBSafeCategoryTests;
-			productName = HJBSafeCategoryTests;
-			productReference = B862CDA71913457400067D06 /* HJBSafeCategoryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "HJBSafeCategory-Linker-Failure";
+			productName = HJBSafeCategory;
+			productReference = B862CDDA1913470E00067D06 /* HJBSafeCategory-Linker-Failure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B862CDE719134BBD00067D06 /* HJBSafeCategory-Runtime-Failure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B862CDF419134BBD00067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategory-Runtime-Failure" */;
+			buildPhases = (
+				B862CDE819134BBD00067D06 /* Sources */,
+				B862CDED19134BBD00067D06 /* Frameworks */,
+				B862CDF119134BBD00067D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HJBSafeCategory-Runtime-Failure";
+			productName = HJBSafeCategory;
+			productReference = B862CDF719134BBD00067D06 /* HJBSafeCategory-Runtime-Failure.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -191,11 +224,6 @@
 				CLASSPREFIX = HJB;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Heath Borders";
-				TargetAttributes = {
-					B862CDA61913457400067D06 = {
-						TestTargetID = B862CD8B1913457400067D06;
-					};
-				};
 			};
 			buildConfigurationList = B862CD871913457400067D06 /* Build configuration list for PBXProject "HJBSafeCategory" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +238,8 @@
 			projectRoot = "";
 			targets = (
 				B862CD8B1913457400067D06 /* HJBSafeCategory */,
-				B862CDA61913457400067D06 /* HJBSafeCategoryTests */,
+				B862CDCC1913470E00067D06 /* HJBSafeCategory-Linker-Failure */,
+				B862CDE719134BBD00067D06 /* HJBSafeCategory-Runtime-Failure */,
 			);
 		};
 /* End PBXProject section */
@@ -225,11 +254,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B862CDA51913457400067D06 /* Resources */ = {
+		B862CDD41913470E00067D06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B862CDB31913457400067D06 /* InfoPlist.strings in Resources */,
+				B862CDD51913470E00067D06 /* InfoPlist.strings in Resources */,
+				B862CDD61913470E00067D06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862CDF119134BBD00067D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862CDF219134BBD00067D06 /* InfoPlist.strings in Resources */,
+				B862CDF319134BBD00067D06 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,42 +279,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862CDE5191349E600067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */,
 				B862CD9C1913457400067D06 /* main.m in Sources */,
+				B862CDDE191347B200067D06 /* NSObject+HJBMyCategory.m in Sources */,
+				B862CDFA19134F9A00067D06 /* NSObject+HJBMySometimesUnsafeCategory.m in Sources */,
+				B862CDE11913491800067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */,
 				B862CDA01913457400067D06 /* HJBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B862CDA31913457400067D06 /* Sources */ = {
+		B862CDCD1913470E00067D06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B862CDB51913457400067D06 /* HJBSafeCategoryTests.m in Sources */,
+				B862CDCE1913470E00067D06 /* main.m in Sources */,
+				B862CDFF191355C700067D06 /* NSObject+HJBMySometimesUnsafeCategory.m in Sources */,
+				B862CDE21913491C00067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */,
+				B862CDCF1913470E00067D06 /* HJBAppDelegate.m in Sources */,
+				B862CDE619134B1900067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B862CDE819134BBD00067D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862CDE919134BBD00067D06 /* main.m in Sources */,
+				B862CDEA19134BBD00067D06 /* HJBMyClassThatUsesMyCategory.m in Sources */,
+				B862CDFE1913557000067D06 /* NSObject+HJBMyCategory.m in Sources */,
+				B862CDEB19134BBD00067D06 /* HJBAppDelegate.m in Sources */,
+				B862CDEC19134BBD00067D06 /* HJBMyClassThatIncludeMyCategoryInItsInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B862CDAD1913457400067D06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B862CD8B1913457400067D06 /* HJBSafeCategory */;
-			targetProxy = B862CDAC1913457400067D06 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B862CD981913457400067D06 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B862CD991913457400067D06 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B862CDB11913457400067D06 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B862CDB21913457400067D06 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -381,43 +424,63 @@
 			};
 			name = Release;
 		};
-		B862CDBC1913457400067D06 /* Debug */ = {
+		B862CDD81913470E00067D06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HJBSafeCategory.app/HJBSafeCategory";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJBSafeCategory/HJBSafeCategory-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HJBSafeCategoryTests/HJBSafeCategoryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				INFOPLIST_FILE = "HJBSafeCategory/HJBSafeCategory-Info.plist";
+				PRODUCT_NAME = "HJBSafeCategory-Linker-Failure";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		B862CDBD1913457400067D06 /* Release */ = {
+		B862CDD91913470E00067D06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HJBSafeCategory.app/HJBSafeCategory";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJBSafeCategory/HJBSafeCategory-Prefix.pch";
-				INFOPLIST_FILE = "HJBSafeCategoryTests/HJBSafeCategoryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				INFOPLIST_FILE = "HJBSafeCategory/HJBSafeCategory-Info.plist";
+				PRODUCT_NAME = "HJBSafeCategory-Linker-Failure";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B862CDF519134BBD00067D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HJBSafeCategory/HJBSafeCategory-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					"UNSAFE=1",
+				);
+				INFOPLIST_FILE = "HJBSafeCategory/HJBSafeCategory-Info.plist";
+				PRODUCT_NAME = "HJBSafeCategory-Runtime-Failure";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B862CDF619134BBD00067D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HJBSafeCategory/HJBSafeCategory-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"UNSAFE=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HJBSafeCategory/HJBSafeCategory-Info.plist";
+				PRODUCT_NAME = "HJBSafeCategory-Runtime-Failure";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -440,14 +503,25 @@
 				B862CDBA1913457400067D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B862CDBB1913457400067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategoryTests" */ = {
+		B862CDD71913470E00067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategory-Linker-Failure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B862CDBC1913457400067D06 /* Debug */,
-				B862CDBD1913457400067D06 /* Release */,
+				B862CDD81913470E00067D06 /* Debug */,
+				B862CDD91913470E00067D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B862CDF419134BBD00067D06 /* Build configuration list for PBXNativeTarget "HJBSafeCategory-Runtime-Failure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B862CDF519134BBD00067D06 /* Debug */,
+				B862CDF619134BBD00067D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
